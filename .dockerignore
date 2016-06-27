@@ -31,7 +31,7 @@ Icon?
 Thumbs.db
 
 # Node Files #
-/node_modules
+node_modules/
 /bower_components
 npm-debug.log
 
@@ -40,11 +40,11 @@ npm-debug.log
 
 # Typing #
 /src/typings/tsd/
-/typings/
+typings/
 /tsd_typings/
 
 # Dist #
-/dist
+dist/
 /public/__build__/
 /src/*/__build__/
 /__build__/**
@@ -54,8 +54,15 @@ npm-debug.log
 .webpack.json
 
 # Doc #
-/doc/
+doc/
 
 # IDE #
 .idea/
 *.swp
+
+.git
+.gitignore
+LICENSE
+README.md
+docker-compose.yml
+.travis.yml
